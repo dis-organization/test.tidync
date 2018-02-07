@@ -1,0 +1,16 @@
+Package: test.tidync
+Version: 0.0.0.9000
+Title: Tests for 'tidync'
+Description: Testing the tidync package is quite onerous without having a lot
+ of NetCDF files on hand. This package exists to pull out a lot of local-specific
+ tests built into tidync that could assume the use of 'raadtools' and 'bowerbird' for
+ availability of files. 
+Authors@R: person("Michael", "Sumner", email = "mdsumner@gmail.com", role = c("aut", "cre"))
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Depends: 
+    tidync
+Remotes: hypertidy/tidync
+RoxygenNote: 6.0.1
